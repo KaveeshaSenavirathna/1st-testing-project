@@ -1,0 +1,17 @@
+{
+  "name": "singlish-translator-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests for Singlish to Sinhala translator",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": ["playwright", "testing", "singlish", "translator"],
+  "author": "M.M.P.K.Senavirathna",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
