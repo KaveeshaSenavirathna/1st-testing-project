@@ -1,2 +1,2 @@
-# 1st testing project
+# 1st Testing Project
 Test project
