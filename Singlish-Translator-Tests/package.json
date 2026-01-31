@@ -1,14 +1,17 @@
 {
-  "name": "prageeth-dilruwan",
+  "name": "singlish-translator-tests",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
+  "description": "Playwright tests for Singlish to Sinhala translator",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": ["playwright", "testing", "singlish", "translator"],
+  "author": "M.M.P.K.Senavirathna",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.58.0",
-    "@types/node": "^25.0.10"
+    "@playwright/test": "^1.40.0"
   }
 }
